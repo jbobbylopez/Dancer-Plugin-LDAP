@@ -32,9 +32,9 @@ After installation, you can view the documentation by running
     if ( $LDAP->success )
     {
         info "Login successful for $connection_info->{user} ";
-        info "(error code: " . $LDAP->errorcode ")";
+        info "(error code: " . $LDAP->errorcode . ")";
     }
     else
     {
-        info "Login failed (error code: " . $LDAP->errorcode ")";
+        info "Login failed (error code: " . $LDAP->errorcode . ")";
     }
