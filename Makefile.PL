@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Simple LDAP authentication plugin for Dancer applications",
-  "AUTHOR" => "J. Bobby Lopez <bobby.lopez@gmail.com>",
+  "AUTHOR" => "J. Bobby Lopez <bobby.lopez\@gmail.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
